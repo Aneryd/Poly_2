@@ -10,12 +10,12 @@ public class TestPolynomsApp {
     }
     @Test
     void test2(){
-        String data = "poly=q,w,e";
+        String data = "q,w,e";
         assertEquals(0,CalculationPoly.calcpoly(AdaptationData.adaptationData(data)),0.1);
     }
     @Test
     void test3(){
-        String data = "poly=1.2.3,q,w,e";
+        String data = "1.2.3,q,w,e";
         assertEquals(5.5,CalculationPoly.calcpoly(AdaptationData.adaptationData(data)),0.1);
     }
     @Test
