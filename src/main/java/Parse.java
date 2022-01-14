@@ -3,7 +3,7 @@ import org.apache.commons.cli.*;
 public class Parse {
     public static String parse(String[] args){
         Options options = new Options();
-        Option poly = new Option("poly", "poly", true, "poly");
+        Option poly = new Option("poly", "poly=", true, "poly");
         poly.setRequired(true);
         options.addOption(poly);
 
