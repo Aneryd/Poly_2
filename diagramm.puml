@@ -1,0 +1,7 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+PolynomsApp --* CalculationPoly
+CalculationPoly --* AdaptationData
+AdaptationData --* Parse
+@enduml
