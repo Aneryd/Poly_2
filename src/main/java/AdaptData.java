@@ -1,5 +1,5 @@
-public class AdaptationData {
-    public static float[] adaptationData(String data){
+public class AdaptData {
+    public static float[] adaptData(String data){
         String value;
         value = data;
         char[] strToArray = value.toCharArray();

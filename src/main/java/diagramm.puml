@@ -1,8 +1,12 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-PolynomsApp ..> CalculationPoly
-CalculationPoly ..> AdaptationData
-AdaptationData ..> Parse
+Polynoms ..> CalcPoly
+Polynoms : main()
+CalcPoly ..> AdaptData
+CalcPoly : calcpoly()
+AdaptData ..> Parsing
+Parsing : parsing()
+AdaptData : adaptData()
 
 @enduml

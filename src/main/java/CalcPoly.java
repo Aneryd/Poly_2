@@ -1,4 +1,4 @@
-public class CalculationPoly {
+public class CalcPoly {
     public static float calcpoly(float[] data) {
         int length;
         length = data.length;
